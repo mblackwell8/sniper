@@ -1,0 +1,117 @@
+<font face="Helvetica">
+
+<a name="contents"><b>Help contents</b></a><br>
+<a href="#howwork">How does PokerSniper work?</a><br>
+<a href="#using">Using PokerSniper</a><br>
+<a href="#dealto">Deal to Flop/Turn/River</a><br>
+<a href="#handentry">Instructions for hand entry</a><br>
+<a href="#percenthands">% Hands</a><br>
+<a href="#tips">Tips</a><br>
+<a href="#about">Developers/Feedback</a><br>
+
+<br>
+
+<a name="howwork"><b>How does PokerSniper work?</b></a>
+<p>PokerSniper is different to traditional poker calculators.  It allows you to calculate the strength of your hand (your "hand equity") against not just a specific hand that your opponent might be holding, but also against his possible "range" of hands.</p>
+<p>Why is this important?  It's important because poker is a game of incomplete information.  Decisions in poker are based on the information available to you on each street about your opponents' likely holdings.<p>
+<p>Whilst each of your opponent's actions reveals information to you about his hand, it is very unlikely that you will ever be able to say with certainty exactly which two cards your opponent is holding.  What you will be able to do with practice however is to narrow down your opponent's holding to a "range" of hands.  For example, a raise under the gun in a full ring game is likely to represent a stronger hand, (eg TT-AA, plus AQ-AK) than a limp from middle position (which might represent eg 22-77, A2s+, ATo+).  PokerSniper enables you to make hand equity calculations against any range of hands for either one or multiple opponents.</p>
+
+<a name="using"><b>Using PokerSniper</b></a>&nbsp;<a href="#contents">back</a>
+
+<p>When you open PokerSniper you will see that the screen is divided into two halves.  The top half is the input/output area where you will input hands or hand ranges for you and your opponents, and see the resulting hand equities/pot odds displayed.  The lower half of the screen is the keypad, just like on a calculator.</p>
+
+<p>To enter a hand range, simply type using the keypad and your input will be displayed in the white input field beside P1.  Use the backspace button to make corrections, or the Clr button to clear the field completely.  Next select P2 and enter a hand/hand range here also.  Continue for up to 4 players.  If the board has been dealt, select the B field below P4 and enter the board cards nominating both rank and suit.</p>
+
+<p>Hit the '=' button in the bottom right corner to commence the simulation.</p>
+
+<p>PokerSniper uses MonteCarlo simulation, and calculates hand equity by running lots of simulated games using hands selected from within your specified hand ranges.  The number of scenarios is tallied above the 'Clr' button.  As the number of iterations increases, the accuracy increases, and you will be able to see the HE% zero in on the long-term equity of the scenario being played out.  To stop the simulation, simply hit the '=' sign again.</p>
+
+<p>Hand Equities (HE%) are displayed to the right of the hand range as a total equity %, and also broken out into Win, Loss, Tie percentages.  In addition, the required pot odds to call an all-in bet are displayed.  Note, you can switch the display from HE% to Pot Odds simply by tapping this area of the screen.  Tap again to revert.</p>
+
+<a name="dealto"><b>Deal to Flop/Turn/River</b></a></a>&nbsp;<a href="#contents">back</a>
+
+<p>PokerSniper allows you to analyse Hand Equity either on the Flop, the Turn or the River.</p>
+
+<p>Most of the time you'll be interested in dealing to the river, however on occasion it can be useful to consider hand strength on the flop or the turn.  Consider for example AK vs 22.  By the river, these hands have almost equal equity (49.9 vs 50.1), however by dealing to the Flop, you can see how often AK has overtaken 22 at this point in the hand (31.9% of the time).  Likewise you can check how often an underpair overtakes an overpair on the flop (approx. 11.3% of the time).  Alternatively, it can be useful to assess how your opponent's range performs against your hand on any given flop.</p>
+
+<p>Simply tap the screen on the words "Deal to River" to toggle between the 3 options - Deal to Flop, Deal to Turn and Deal to River.</p>
+
+<a name="handentry"><b>Instructions for hand entry.</b></a></a>&nbsp;<a href="#contents">back</a>
+
+<p>To facilitate the easy entry of hand ranges, we use the following protocols:
+<ul>
+<li>AK = all combinations of Ace King, either suited or unsuited</li>
+<li>AKs = all combinations of Ace King suited</li>
+<li>AKo = all combinations of Ace King off-suit</li>
+<li>AhKh = Ace of hearts, King of hearts</li>
+<li>AsKc = Ace of spades, King of clubs</li>
+<li>7hTd = 7 of hearts, Ten of diamonds</li>
+<li>99 = all combinations of pocket 9's</li>
+</ul>
+</p>
+
+<p>Use a plus sign to specify an open-ended range, eg: 
+99+ = all pocket pairs from 99 to AA</p>
+
+<p>To specify a card with a range of kickers, type the high card first followed by the lowest kicker then the + sign to nominate all kickers up to (but not including) the value of the high card.  (Note, you can specify suited and unsuited combinations either together or separately per below), eg:
+<ul>
+<li>AT+ = AT, AJ, AQ, AK (all suited and unsuited combinations)</li>
+<li>ATo+ = ATo, AJo, AQo, AKo</li>
+<li>A7s+ = all suited Aces from A7s to AKs</li>
+<li>KTo+ = KTo, KJo, KQo</li>
+<li>QTs+ = QTs, QJs</li>
+<li>note JTs+ = only JTs</li>
+<li>T5s+ = T5s, T6s, T7s, T8s, T9s</li>
+<li>Ah7h+ = all suited Aces (in hearts) from Ah7h to AhKh</li>
+</ul>
+</p>
+
+<p>Use a dash to specify a closed range, eg:
+44-88 = all pocket pairs from 44 to 88 (ie 44, 55, 66, 77, 88)
+K8-KT = K8, K9, KT (all suited and unsuited combinations)</p>
+
+<p>Use a comma to specify multiple hands or ranges, eg:
+QQ,AQ,AK = all combinations of: QQ, AQ, and AK
+JJ+,AJs+ = all pocket pairs from JJ-AA plus AJs, AQs, AKs</p>
+
+<p>Use an x to specify a random card in combination with another card, eg:
+Ax = Ace, random kicker
+Ahxh = Ace of hearts, random kicker of hearts</p>
+
+<p>Use combinations of the above to specify precise ranges, eg:
+"99-JJ,ATo+,Axs" = pairs 99, TT, JJ plus ATo, AJo, AQo, AKo plus all other suited Ace combinations</p>
+
+<p>Random hand "Rd"
+- If your opponent's hand is unknown, simply hit the "Rd" button - your hand will be evaluated against many random hands to determine its equity on average
+- random hands are displayed as xxxx</p>
+
+<a name="percenthands"><b>% Hands</b></a></a>&nbsp;<a href="#contents">back</a>
+
+<p>In addition to the hand notation detailed above, PokerSniper also allows you to enter a hand range by simply specifying a percentage (%) between 1 and 100 for each player.  This number equals the percentage of total hand combinations that you believe an opponent is playing in any given hand.  Eg, entering 10% beside P1 gives that player a range of the top 10% of hold 'em hands.</p>
+
+<p>(Note, there are 169 distinct starting hands in hold 'em, breaking down into 1326 suited combinations. The top 1% of hands therefore represents the top 13.26 combinations - rounded for simplicity's sake to 12.  There are 6 combinations of AA and 6 combinations of KK meaning that the top 1% of hands represents just these 2 hands, AA & KK.  Entering 10% therefore equates to the top 132 hand combinations - or hands down to about A9s.  Note also that there are numerous approaches to ranking hands in hold 'em.  We have used the same approach as PokerStove - each individual hand's all-in preflop equity is calculated against 4 other random hands then ranked from highest to lowest).</p>
+
+<p>The % hands number is basically equal to the VPIP (voluntarily put $ in pot) measure that online players will be familiar with.</p>
+
+<p>When you enter a hand %, the following notation will appear on the right hand side of the entry dialog box (>ATo,77,KJo). This is quick visual shorthand for the hands that are included in this range. Broadly speaking the 3 hands will represent the lowest Ace high hand, the lowest pair, and the lowest other high card hand included in the range. (This breaks down a little bit when you get to very high percentages of hands but you will get the general idea...) </p>
+
+<p>Note, % hands can only be entered as whole numbers, ie for someone playing 20.8% of hands, simply round to the nearest whole number and enter 21%.</p>
+
+<a name="tips"><b>Tip</b></a></a>&nbsp;<a href="#contents">back</a>
+
+<p>To share results with friends, you can easily take a screenshot of your result and email/MMS it.  To take a screenshot press the Home button and Sleep button at the same time - the screen will flash and you will hear the camera shutter sound.  The screenshot will be saved to your photo roll.</p>
+
+<p>To quickly clear all entries, simply tap the Clr button twice</p>
+
+<a name="about"><b>Developers/Feedback</b></a></a>&nbsp;<a href="#contents">back</a>
+
+<p>Thanks for purchasing PokerSniper!  We hope you like it.  PokerSniper is a work in progress.  Your thoughts and input will help us to make the app more useful to you.  Please drop us a line to let us know how you think we can improve the app, or if you have any features that you'd like to see added in future versions.</p>
+
+<p>PokerSniper for iPhone was inspired by Andrew Prock's Poker Stove application for PC.  PokerSniper was built using Moritz Hammer's Directed Acyclic Graph code, with his kind permission.</p>
+
+<p>Contact us at pokersniper@googlegroups.com</p>
+
+<p>Developers Mark Blackwell and Andy Meldrum</p>
+
+
+</font>

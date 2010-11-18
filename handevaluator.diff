@@ -1,0 +1,150 @@
+23c23
+< 	unsigned int i=1,j;
+---
+> 	unsigned int i=1;//,j;
+85c85,87
+< 		r = hand[i] >> 2;	
+---
+> 		//rank: divide by 4
+> 		r = hand[i] >> 2;
+> 		//color: 
+121c123,183
+< char* hand_to_str(char* hand, unsigned int cards) {
+---
+> handeval_eq_class* calculate_equivalence_class_ncards(char* hand, unsigned int nCards) {
+> 	// first, walk the dag for non-flush-hands, and count the colors
+> 	unsigned int i, colarr = 0, r, c, flush;			// color array stored in a 32-bit value. I hope that there is some way to do bitfiddeling for flush detection
+> 	char* carr = (char*) &colarr;
+> 	handeval_dag_node* n = 0;
+> 	for (i=0; i < nCards; i++) {
+> 		//rank: divide by 4
+> 		r = hand[i] >> 2;
+> 		//color: 
+> 		c = hand[i] & 3;
+> 		if (!i) {
+> 			n = &(dag[r]);  // the first layer - get the r-th node of the dag
+> 		} else {			
+> 			n = n->succs[r]; // later layers - follow the links (we assume the hand is valid and crash upon errors here)
+> 		}
+> 		carr[c]++;		// count the color
+> 	}
+> 	// next, check for a flush
+> 	flush = 4;
+> 	for (i=0; i < 4; i++) {
+> 		if (carr[i] >= 5) {
+> 			flush = i;
+> 		}
+> 	}
+> 	if (flush == 4) {	// no flush
+> 		
+> 		//return the worst possible hand for this set of cards, which is the same as the best
+> 		//hand for 7 cards (when nCards == 7)
+> 		return classes[n->maxn];
+> 	} else {
+> 		// finally, if there is a flush, walk the dag again, and use only the cards of the flush-color
+> 		n = 0;
+> 		for (i=0; i < nCards; i++) {	
+> 			r = hand[i] >> 2;	
+> 			c = hand[i] & 3;
+> 			if (c == flush) {	// flush-coloured card?
+> 				if (!n) {
+> 					n = &(dag[r]);  // the first layer - get the r-th node of the dag
+> 				} else {			
+> 					n = n->succs[r]; // later layers - follow the links (we assume the hand is valid and crash upon errors here)
+> 				}
+> 			}
+> 		}
+> 		return classes[n->maxf];
+> 	}
+> }
+> 
+> 
+> //char* hand_to_str(char* hand, unsigned int cards) {
+> //	unsigned int i;
+> //	char* res = malloc(cards*3);
+> //	for (i=0; i < cards; i++) {
+> //		res[i*3+0] = CARD[hand[i] >> 2];
+> //		res[i*3+1] = COLOR[hand[i] & 3];
+> //		res[i*3+2] = ' ';
+> //	}
+> //	res[cards*3-1] = 0;
+> //	return res;
+> //}
+> 
+> char* hand_to_str(char* hand, unsigned int cards, char* threeCharsPerCard) {
+123c185
+< 	char* res = malloc(cards*3);
+---
+> 	char* res = threeCharsPerCard;
+132a195
+> 
+158,160c221,234
+< void handeval_init() {
+< 	load_equivalenceclasses("eqcllist");
+< 	load_dag("carddag");
+---
+> void handeval_init(char* currDir) {
+> 	
+> 	//*********************** TODO: fix this!!! for some reason requires full path
+> 	//load_equivalenceclasses("/Users/mark/work/sniper/eqcllist");
+> 	//load_dag("/Users/mark/work/sniper/carddag");
+> 	char buf[1024];
+> 	strcpy(buf, currDir);
+> 	strcat(buf, "eqcllist");
+> 	load_equivalenceclasses(buf);
+> 	
+> 	strcpy(buf, currDir);
+> 	strcat(buf, "carddag");
+> 	load_dag(buf);
+> 
+164,165c238,239
+< 	unsigned int i, j, r, c;
+< 	assert(cardcnt);				// there must be more than one card
+---
+> 	unsigned int i, r, c;
+> 	assert_local(cardcnt);				// there must be more than one card
+192c266
+< 	unsigned int i, j, r, c;
+---
+> 	unsigned int i, r, c;
+212c286
+< 	assert(n->equiv_class_normal > 0);
+---
+> 	assert_local(n->equiv_class_normal > 0);
+226c300
+< 		assert(n->equiv_class_flush > 0);
+---
+> 		assert_local(n->equiv_class_flush > 0);
+236c310
+< 	unsigned int i, j, r, c;
+---
+> 	unsigned int i, r, c;
+238c312
+< 	assert(cardcnt);				// there must be more than one card
+---
+> 	assert_local(cardcnt);				// there must be more than one card
+
+********************* DIFF ON HEADER FILE *************************
+
+32c32,39
+< } simulation_result;
+---
+> 	
+> 	//added by MRB
+> 	char flopCards[5];
+> 	handeval_eq_class* handeval;
+> 	int isWinner;
+> 	int isSplitter;
+> 	float splitEquity;
+> } simulation_result; 
+41,42c48,50
+< void handeval_init();
+< char* hand_to_str(char* hand, unsigned int cards);
+---
+> void handeval_init(char* currDir);
+> //char* hand_to_str(char* hand, unsigned int cards);
+> char* hand_to_str(char* hand, unsigned int cards, char* threeCharsPerCard);
+45a54,56
+> //added by MRB
+> handeval_eq_class* calculate_equivalence_class_ncards(char* hand, unsigned int nCards);
+> 

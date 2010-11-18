@@ -1,0 +1,1518 @@
+Tsniper
+v7
+r0
+t299420985.989247
+cCheck dependencies
+cCpResource build/Debug-iphoneos/sniper.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Info.plist sniper-Info.plist
+cCompileXIB /Volumes/Files/mark/work/sniper/FlipsideView.xib
+cCompileXIB /Volumes/Files/mark/work/sniper/MainWindow.xib
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/20px-Left_arrow.png 20px-Left_arrow.png
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitClubs.svg.png 30px-SuitClubs.svg.png
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitDiamonds.svg.png 30px-SuitDiamonds.svg.png
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitSpades.svg.png 30px-SuitSpades.svg.png
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/50px-Stop_cross.png 50px-Stop_cross.png
+cCpResource build/Debug-iphoneos/sniper.app/carddag carddag
+cCpResource build/Debug-iphoneos/sniper.app/eqcllist eqcllist
+cCpResource build/Debug-iphoneos/sniper.app/percentHandData.csv percentHandData.csv
+cCpResource build/Debug-iphoneos/sniper.app/aboutSniper.html aboutSniper.html
+cCpResource build/Debug-iphoneos/sniper.app/aboutSniper_LITE.html aboutSniper_LITE.html
+cCpResource build/Debug-iphoneos/sniper.app/buildSpec buildSpec
+cCpResource build/Debug-iphoneos/sniper.app/help.html help.html
+cCpResource build/Debug-iphoneos/sniper.app/keywords keywords
+cCpResource build/Debug-iphoneos/sniper.app/LICENSE LICENSE
+cCompileXIB /Volumes/Files/mark/work/sniper/SniperViewController.xib
+cCompileXIB /Volumes/Files/mark/work/sniper/InfoViewController.xib
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/27px-SuitHearts.png 27px-SuitHearts.png
+cCpResource build/Debug-iphoneos/sniper.app/help_LITE.html help_LITE.html
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png artwork/Icon.png
+cCpResource build/Debug-iphoneos/sniper.app/iTunesArtwork artwork/iTunesArtwork
+cCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png artwork/Default.png
+cProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch.gch sniper_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch.gch sniper_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/main.o /Volumes/Files/mark/work/sniper/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniperAppDelegate.o /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideViewController.o /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/carddeck.o /Volumes/Files/mark/work/sniper/carddeck.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/handevaluator.o /Volumes/Files/mark/work/sniper/handevaluator.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/podds.o /Volumes/Files/mark/work/sniper/podds.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/randomgenerator.o /Volumes/Files/mark/work/sniper/randomgenerator.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/userinp.o /Volumes/Files/mark/work/sniper/userinp.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/Simulation.o /Volumes/Files/mark/work/sniper/Classes/Simulation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperViewController.o /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/HandComboCount.o /Volumes/Files/mark/work/sniper/HandComboCount.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperView.o /Volumes/Files/mark/work/sniper/SniperView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper normal armv6
+cGenerateDSYMFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app.dSYM /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper
+cProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E1F93E75-6A65-4D81-821F-B743373225D0.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+cTouch /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent
+cCodeSign /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004B47D28D0000000000000110
+t1262998157
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004A0BA04000000000000000DD
+t1242275904
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004A0BA04000000000000001E5
+t1242275904
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/Availability.h
+c000000004A0BB10100000000000019D8
+t1242280193
+s6616
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/ctype.h
+c000000004A0BA3140000000000002C3A
+t1242276628
+s11322
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/regex.h
+c000000004A0BA314000000000000154F
+t1242276628
+s5455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/stdio.h
+c000000004A0BA3140000000000003D1D
+t1242276628
+s15645
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/stdlib.h
+c000000004A0BA3140000000000002AA4
+t1242276628
+s10916
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/string.h
+c000000004A0BA3140000000000001731
+t1242276628
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/sys/stat.h
+c000000004A0BA7810000000000004A1D
+t1242277761
+s18973
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/time.h
+c000000004A0BA314000000000000178E
+t1242276628
+s6030
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdbool.h
+c0000000049FBCC390000000000000644
+t1241238585
+s1604
+
+N/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4B8E0540-19D2-4359-A87F-283D4A300F1C.mobileprovision
+c000000004B0D0C4F0000000000001BA3
+t1259146319
+s7075
+
+N/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4D9AF0E2-5530-47F6-ACA1-A4C1913C6B33.mobileprovision
+c0000000049FADD9B0000000000001BFF
+t1241177499
+s7167
+
+N/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/8B0EB60B-DC33-4F5C-B7FA-BABAB50A5DD2.mobileprovision
+c000000004AE813E50000000000001B9B
+t1256723429
+s7067
+
+N/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/95CE39AD-912D-4040-B6EA-1B2BECFFA308.mobileprovision
+c000000004BC1B79F0000000000001C43
+t1270986655
+s7235
+
+N/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E1F93E75-6A65-4D81-821F-B743373225D0.mobileprovision
+c000000004BDFFFC10000000000001C4F
+t1272971201
+s7247
+
+N/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E9049780-2339-4FE8-AA91-3280E6171E6E.mobileprovision
+c000000004A03FCBC0000000000001C00
+t1241775292
+s7168
+
+N/Volumes/Files/mark/work/sniper/20px-Left_arrow.png
+c000000004A781B170000000000000153
+t1249385239
+s339
+
+N/Volumes/Files/mark/work/sniper/27px-SuitHearts.png
+c000000004A781AE400000000000004E6
+t1249385188
+s1254
+
+N/Volumes/Files/mark/work/sniper/30px-SuitClubs.svg.png
+c000000004A06A843000000000000028E
+t1241950275
+s654
+
+N/Volumes/Files/mark/work/sniper/30px-SuitDiamonds.svg.png
+c000000004A06A7FD00000000000003A5
+t1241950205
+s933
+
+N/Volumes/Files/mark/work/sniper/30px-SuitSpades.svg.png
+c000000004A06A78D000000000000027B
+t1241950093
+s635
+
+N/Volumes/Files/mark/work/sniper/50px-Stop_cross.png
+c000000004A5AAB0F0000000000000956
+t1247456015
+s2390
+
+N/Volumes/Files/mark/work/sniper/Classes/FlipsideView.h
+c000000004B66BFD400000000000000BA
+t1265024980
+s186
+
+N/Volumes/Files/mark/work/sniper/Classes/FlipsideView.m
+c000000004B66BFD400000000000001BA
+t1265024980
+s442
+i"FlipsideView.h"
+
+N/Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.h
+c000000004B6E9A4900000000000002A4
+t1265539657
+s676
+
+N/Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m
+c000000004B9E061900000000000007E0
+t1268647449
+s2016
+i"FlipsideViewController.h"
+
+N/Volumes/Files/mark/work/sniper/Classes/Simulation.h
+c000000004C84D6060000000000001380
+t1283773958
+s4992
+i<Foundation/Foundation.h>
+i"podds.h"
+
+N/Volumes/Files/mark/work/sniper/Classes/Simulation.m
+c000000004C84D70D000000000000430A
+t1283774221
+s17162
+i"Simulation.h"
+
+N/Volumes/Files/mark/work/sniper/Classes/SniperViewController.h
+c000000004C84D7D50000000000001C9D
+t1283774421
+s7325
+i<UIKit/UIKit.h>
+i"podds.h"
+i"Simulation.h"
+i"FlipsideViewController.h"
+i"HandComboCount.h"
+i"SniperView.h"
+
+N/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m
+c000000004C8E01A6000000000000B564
+t1284374950
+s46436
+i"SniperViewController.h"
+
+N/Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.h
+c000000004B69511B00000000000001C1
+t1265193243
+s449
+
+N/Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m
+c000000004B695303000000000000033C
+t1265193731
+s828
+i"sniperAppDelegate.h"
+i"SniperViewController.h"
+
+N/Volumes/Files/mark/work/sniper/Entitlements.plist
+c000000004BA9EF0300000000000000E1
+t1269427971
+s225
+
+N/Volumes/Files/mark/work/sniper/FlipsideView.xib
+c000000004BBC11C300000000000057F8
+t1270616515
+s22520
+
+N/Volumes/Files/mark/work/sniper/HandComboCount.h
+c000000004BF7647200000000000002AA
+t1274504306
+s682
+i<Foundation/Foundation.h>
+
+N/Volumes/Files/mark/work/sniper/HandComboCount.m
+c000000004BF7652E00000000000002CB
+t1274504494
+s715
+i"HandComboCount.h"
+
+N/Volumes/Files/mark/work/sniper/InfoViewController.xib
+c000000004B0D11840000000000001FF4
+t1259147652
+s8180
+
+N/Volumes/Files/mark/work/sniper/LICENSE
+c00000000479DA3CA0000000000000581
+t1201513418
+s1409
+
+N/Volumes/Files/mark/work/sniper/MainWindow.xib
+c000000004B66BFD40000000000001DD3
+t1265024980
+s7635
+
+N/Volumes/Files/mark/work/sniper/SniperView.h
+c000000004BEFE021000000000000027B
+t1274011681
+s635
+i<UIKit/UIKit.h>
+
+N/Volumes/Files/mark/work/sniper/SniperView.m
+c000000004BEFE05E0000000000000312
+t1274011742
+s786
+i"SniperView.h"
+
+N/Volumes/Files/mark/work/sniper/SniperViewController.xib
+c000000004C19FA030000000000024488
+t1276770819
+s148616
+
+N/Volumes/Files/mark/work/sniper/UIHandcode.h
+c000000004BE933F800000000000001AC
+t1273574392
+s428
+i<UIKit/UIKit.h>
+i"userinp.h"
+
+N/Volumes/Files/mark/work/sniper/UIHandcode.m
+c000000004BE14D69000000000000045D
+t1273056617
+s1117
+i"UIHandcode.h"
+
+N/Volumes/Files/mark/work/sniper/aboutSniper.html
+c000000004A966F23000000000000028E
+t1251372835
+s654
+
+N/Volumes/Files/mark/work/sniper/aboutSniper_LITE.html
+c000000004B9E076400000000000003DF
+t1268647780
+s991
+
+N/Volumes/Files/mark/work/sniper/artwork/Default.png
+c000000004BA9E6A000000000000031DB
+t1269425824
+s12763
+
+N/Volumes/Files/mark/work/sniper/artwork/Icon.png
+c000000004AD5A95D00000000000008E3
+t1255516509
+s2275
+
+N/Volumes/Files/mark/work/sniper/artwork/iTunesArtwork
+c000000004AD5A9680000000000003ABB
+t1255516520
+s15035
+
+N/Volumes/Files/mark/work/sniper/artwork_LITE/Default.png
+c000000004BA9E6D200000000000032CB
+t1269425874
+s13003
+
+N/Volumes/Files/mark/work/sniper/artwork_LITE/Icon.png
+c000000004AD5A9720000000000000833
+t1255516530
+s2099
+
+N/Volumes/Files/mark/work/sniper/artwork_LITE/iTunesArtwork.png
+c000000004AD5A96D0000000000003743
+t1255516525
+s14147
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+t1277728005
+s1088
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app.dSYM
+t1277728005
+s102
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/20px-Left_arrow.png
+t1277291720
+s353
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/27px-SuitHearts.png
+t1277291720
+s1267
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitClubs.svg.png
+t1277291720
+s660
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitDiamonds.svg.png
+t1277291720
+s750
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitSpades.svg.png
+t1277291720
+s632
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/50px-Stop_cross.png
+t1277291720
+s1560
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png
+t1277291721
+s10765
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Entitlements.plist
+t1269659646
+s62
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/FlipsideView.nib
+t1277291720
+s2022
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png
+t1277291720
+s2057
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Info.plist
+t1277291720
+s823
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/InfoViewController.nib
+t1277291720
+s1447
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/LICENSE
+t1277291720
+s1409
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/MainWindow.nib
+t1277291720
+s1362
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/PkgInfo
+t1277291720
+s8
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/ResourceRules.plist
+t1277291720
+s485
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/SniperViewController.nib
+t1277291721
+s26124
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/aboutSniper.html
+t1277291720
+s654
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/aboutSniper_LITE.html
+t1277291720
+s991
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/buildSpec
+t1277291720
+s509
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/carddag
+t1277291720
+s6616182
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+t1277291722
+s7247
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/eqcllist
+t1277291720
+s281760
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/help.html
+t1277291720
+s9475
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/help_LITE.html
+t1277291720
+s9556
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/iTunesArtwork
+t1277291720
+s15035
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/iTunesArtwork.png
+t1270984438
+s13997
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/keywords
+t1277291720
+s95
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/percentHandData.csv
+t1277291720
+s38530
+
+N/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper
+t1277728005
+s142816
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideView.o
+t1270551013
+s9484
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideViewController.o
+t1277291722
+s40488
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/HandComboCount.o
+t1277291722
+s16996
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/Simulation.o
+t1277728005
+s56660
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperView.o
+t1277291722
+s10592
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperViewController.o
+t1277728005
+s152484
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/UIHandcode.o
+t2
+s0
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/carddeck.o
+t1277727569
+s5844
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/handevaluator.o
+t1277727569
+s16644
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/main.o
+t1277291722
+s6424
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/podds.o
+t1277727569
+s13948
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/randomgenerator.o
+t1277291722
+s2816
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniper.LinkFileList
+c000000004C21ECC80000000000000565
+t1277291720
+s1381
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniperAppDelegate.o
+t1277728004
+s44792
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/userinp.o
+t1277727569
+s29520
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/FlipsideViewController.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/HandComboCount.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/Simulation.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/SniperView.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/SniperViewController.plist
+t1277291647
+s2897
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/carddeck.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/handevaluator.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/main.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/podds.plist
+t1277291647
+s8276
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/randomgenerator.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/sniperAppDelegate.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/userinp.plist
+t1277291647
+s275
+
+N/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent
+t1277291722
+s320
+
+N/Volumes/Files/mark/work/sniper/buildSpec
+c000000004BC6FBDA00000000000001FD
+t1271331802
+s509
+
+N/Volumes/Files/mark/work/sniper/carddag
+c00000000479DA2BF000000000064F476
+t1201513151
+s6616182
+
+N/Volumes/Files/mark/work/sniper/carddeck.c
+c000000004A080D8B00000000000005D4
+t1242041739
+s1492
+i"carddeck.h"
+i"randomgenerator.h"
+i<string.h>
+
+N/Volumes/Files/mark/work/sniper/carddeck.h
+c00000000496C5C2900000000000001B9
+t1231838249
+s441
+i"common.h"
+
+N/Volumes/Files/mark/work/sniper/common.h
+c000000004C29E89E000000000000064D
+t1277814942
+s1613
+i<stdio.h>
+i<stdlib.h>
+
+N/Volumes/Files/mark/work/sniper/eqcllist
+c00000000479DA2C00000000000044CA0
+t1201513152
+s281760
+
+N/Volumes/Files/mark/work/sniper/handevaluator.c
+c000000004B5C39F90000000000002417
+t1264335353
+s9239
+i"handevaluator.h"
+i<sys/stat.h>
+i<stdio.h>
+i"stdlib.h"
+i<string.h>
+
+N/Volumes/Files/mark/work/sniper/handevaluator.h
+c000000004C0399180000000000000AC9
+t1275304216
+s2761
+i"common.h"
+
+N/Volumes/Files/mark/work/sniper/help.html
+c000000004C862A290000000000003133
+t1283861033
+s12595
+
+N/Volumes/Files/mark/work/sniper/help_LITE.html
+c000000004C862A49000000000000316C
+t1283861065
+s12652
+
+N/Volumes/Files/mark/work/sniper/keywords
+c000000004B3D6525000000000000005F
+t1262314789
+s95
+
+N/Volumes/Files/mark/work/sniper/main.m
+c000000004B66BFD4000000000000016A
+t1265024980
+s362
+i<UIKit/UIKit.h>
+
+N/Volumes/Files/mark/work/sniper/percentHandData.csv
+c000000004C29E5E8000000000000210D
+t1277814248
+s8461
+
+N/Volumes/Files/mark/work/sniper/podds.c
+c000000004C28868D00000000000048DE
+t1277724301
+s18654
+i<stdio.h>
+i<stdlib.h>
+i<time.h>
+i<string.h>
+i"podds.h"
+
+N/Volumes/Files/mark/work/sniper/podds.h
+c000000004BEA96FB0000000000000760
+t1273665275
+s1888
+i"carddeck.h"
+i"common.h"
+i"handevaluator.h"
+i"randomgenerator.h"
+i"userinp.h"
+
+N/Volumes/Files/mark/work/sniper/randomgenerator.c
+c00000000496C4E5800000000000002A2
+t1231834712
+s674
+i"randomgenerator.h"
+i"stdlib.h"
+
+N/Volumes/Files/mark/work/sniper/randomgenerator.h
+c00000000496C4E4D00000000000000DA
+t1231834701
+s218
+
+N/Volumes/Files/mark/work/sniper/sniper_Prefix.pch
+c000000004B66BFD4000000000000013E
+t1265024980
+s318
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Files/mark/work/sniper/userinp.c
+c000000004C288BD8000000000000775C
+t1277725656
+s30556
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdbool.h>
+i<ctype.h>
+i"userinp.h"
+
+N/Volumes/Files/mark/work/sniper/userinp.h
+c000000004C2343130000000000000A2E
+t1277379347
+s2606
+i<regex.h>
+i"common.h"
+
+N/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bekqjvdbssvbvjaswrjtqxkppjwp/sniper_Prefix.pch.gch
+t1270469982
+s1270044
+
+N/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch.pth
+t1277291646
+s37128
+
+N/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-cdwddsgecmgynbfyleprlypkrthq/sniper_Prefix.pch.gch
+t1270469983
+s8339584
+
+N/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch.gch
+t1277291721
+s1270044
+
+N/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch.pth
+t1277291647
+s1580376
+
+N/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch.gch
+t1277291721
+s8331392
+
+Nsniper-Info.plist
+c000000004BDEBBEA00000000000003F3
+t1272888298
+s1011
+
+CAnalyze /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m
+s298984447.157163
+e298984447.186658
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m
+lSLF07#2@72"Analyze /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m298984447#298984447#0(0"0(0#0#64"/Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m4300911832#1700"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/FlipsideViewController.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/Classes/Simulation.m
+s298984447.247198
+e298984447.353879
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/Classes/Simulation.m
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m:22:9:{22:9-22:26}: warning: incompatible pointer types returning 'int [8][1024]', expected 'int *'
+o         return numHands_weighted;
+o                ^~~~~~~~~~~~~~~~~
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m:30:9:{30:9-30:25}: warning: incompatible pointer types returning 'int [8][1024]', expected 'int *'
+o         return handCodesWeights;
+o                ^~~~~~~~~~~~~~~~
+o2 diagnostics generated.
+lSLF07#2@60"Analyze /Volumes/Files/mark/work/sniper/Classes/Simulation.m298984447#298984447#0(465"/Volumes/Files/mark/work/sniper/Classes/Simulation.m:22:9:{22:9-22:26}: warning: incompatible pointer types returning 'int [8][1024]', expected 'int *'         return numHands_weighted;                ^~~~~~~~~~~~~~~~~/Volumes/Files/mark/work/sniper/Classes/Simulation.m:30:9:{30:9-30:25}: warning: incompatible pointer types returning 'int [8][1024]', expected 'int *'         return handCodesWeights;                ^~~~~~~~~~~~~~~~2 diagnostics generated.0(0#0#52"/Volumes/Files/mark/work/sniper/Classes/Simulation.m4300911832#1676"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/Classes/Simulation.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/Simulation.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m
+s298984447.353965
+e298984447.862637
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1260:83:{1260:83-1260:110}: warning: incompatible pointer types passing 'int *', expected 'int (*)[1024]'
+o                         failed = runSimulation_ncards_dead_weighted(lastSim.hands, lastSim.numPlayers, [lastSim numHands_weighted], 
+o                                                                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1263:57:{1263:57-1263:83}: warning: incompatible pointer types passing 'int *', expected 'int (*)[1024]'
+o                                                                                            lastSim.numCards, [lastSim numHandCodes], [lastSim handCodesWeights],
+o                                                                                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1260:4:{1260:13-1264:33}: warning: Value stored to 'failed' is never read
+o                         failed = runSimulation_ncards_dead_weighted(lastSim.hands, lastSim.numPlayers, [lastSim numHands_weighted], 
+o                         ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1267:4:{1267:13-1270:47}: warning: Value stored to 'failed' is never read
+o                         failed = runSimulation_ncards_dead(lastSim.hands, lastSim.numPlayers, [lastSim numHands], 
+o                         ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1443:8:{1443:8-1443:75}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o         NSLog([NSString stringWithFormat:@"Finished archiving... %d", wasSuccess]);
+o               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1466:8:{1466:8-1466:59}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o         NSLog([NSString stringWithFormat:@"lastSim: %@", lastSim]);
+o               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o6 diagnostics generated.
+lSLF07#2@70"Analyze /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298984447#298984447#0(2383"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1260:83:{1260:83-1260:110}: warning: incompatible pointer types passing 'int *', expected 'int (*)[1024]'                         failed = runSimulation_ncards_dead_weighted(lastSim.hands, lastSim.numPlayers, [lastSim numHands_weighted],                                                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1263:57:{1263:57-1263:83}: warning: incompatible pointer types passing 'int *', expected 'int (*)[1024]'                                                                                            lastSim.numCards, [lastSim numHandCodes], [lastSim handCodesWeights],                                                                                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1260:4:{1260:13-1264:33}: warning: Value stored to 'failed' is never read                         failed = runSimulation_ncards_dead_weighted(lastSim.hands, lastSim.numPlayers, [lastSim numHands_weighted],                          ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1267:4:{1267:13-1270:47}: warning: Value stored to 'failed' is never read                         failed = runSimulation_ncards_dead(lastSim.hands, lastSim.numPlayers, [lastSim numHands],                          ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1443:8:{1443:8-1443:75}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]         NSLog([NSString stringWithFormat:@"Finished archiving... %d", wasSuccess]);               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1466:8:{1466:8-1466:59}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]         NSLog([NSString stringWithFormat:@"lastSim: %@", lastSim]);               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~6 diagnostics generated.2(0@38"Value stored to 'failed' is never read298984447#18446744073709551615#0#1(21@38"Value stored to 'failed' is never read298984447#18446744073709551615#0#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298983118#1260#4#0#0#0"1(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298983118#1260#13#1264#32#38"Value stored to 'failed' is never read6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298983118#1260#4#0#0#10"Dead store0(15"Dead assignment0@38"Value stored to 'failed' is never read298984447#18446744073709551615#0#1(21@38"Value stored to 'failed' is never read298984447#18446744073709551615#0#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298983118#1267#4#0#0#0"1(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298983118#1267#13#1270#46#38"Value stored to 'failed' is never read6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m298983118#1267#4#0#0#10"Dead store0(15"Dead assignment0#0#62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m4300911832#1696"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/SniperViewController.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m
+s298984447.118372
+e298984447.157078
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m
+lSLF07#2@67"Analyze /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m298984447#298984447#0(0"0(0#0#59"/Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m4300911832#1690"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/sniperAppDelegate.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/HandComboCount.m
+s298984447.406913
+e298984447.434249
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/HandComboCount.m
+lSLF07#2@56"Analyze /Volumes/Files/mark/work/sniper/HandComboCount.m298984447#298984447#0(0"0(0#0#48"/Volumes/Files/mark/work/sniper/HandComboCount.m4300911832#1676"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/HandComboCount.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/HandComboCount.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/SniperView.m
+s298984447.434338
+e298984447.462385
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/SniperView.m
+lSLF07#2@52"Analyze /Volumes/Files/mark/work/sniper/SniperView.m298984447#298984447#0(0"0(0#0#44"/Volumes/Files/mark/work/sniper/SniperView.m4300911832#1668"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/SniperView.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/SniperView.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/carddeck.c
+s298984447.163615
+e298984447.188064
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/carddeck.c
+lSLF07#2@50"Analyze /Volumes/Files/mark/work/sniper/carddeck.c298984447#298984447#0(0"0(0#0#42"/Volumes/Files/mark/work/sniper/carddeck.c4300911832#1654"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/carddeck.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/carddeck.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/handevaluator.c
+s298984447.186751
+e298984447.234670
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/handevaluator.c
+lSLF07#2@55"Analyze /Volumes/Files/mark/work/sniper/handevaluator.c298984447#298984447#0(0"0(0#0#47"/Volumes/Files/mark/work/sniper/handevaluator.c4300911832#1664"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/handevaluator.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/handevaluator.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/main.m
+s298984447.117419
+e298984447.163528
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/main.m
+lSLF07#2@46"Analyze /Volumes/Files/mark/work/sniper/main.m298984447#298984447#0(0"0(0#0#38"/Volumes/Files/mark/work/sniper/main.m4300911832#1656"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/main.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/main.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/podds.c
+s298984447.188120
+e298984447.230574
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/podds.c
+o/Volumes/Files/mark/work/sniper/podds.c:257:48: warning: Division by zero or undefined value.
+o                 int randHandCode = (totalWeights == 1 ? 0 : (rand() % totalWeights));
+o                                                              ^
+o1 diagnostic generated.
+lSLF07#2@47"Analyze /Volumes/Files/mark/work/sniper/podds.c298984447#298984447#0(269"/Volumes/Files/mark/work/sniper/podds.c:257:48: warning: Division by zero or undefined value.                 int randHandCode = (totalWeights == 1 ? 0 : (rand() % totalWeights));                                                              ^1 diagnostic generated.1(0@35"Division by zero or undefined value298984447#18446744073709551615#0#8(17@0"298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#0"0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#1(3@6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#240#2#240#13#6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#252#6#252#6#17@0"298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#0"0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#1(3@6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#252#6#252#6#6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#253#2#253#2#17@0"298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#0"0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#1(3@6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#253#2#253#2#6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#254#3#254#18#21@40"Variable 'totalWeights' initialized to 0298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#254#3#0#0#0"1(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#254#3#254#18#40"Variable 'totalWeights' initialized to 017@0"298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#0"0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#1(3@6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#254#3#254#18#6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#255#3#255#3#17@0"298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#0"0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#1(3@6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#255#3#255#3#6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#257#23#257#23#17@0"298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#0"0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#0#0#0#0#1(3@6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#257#23#257#23#6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#257#48#257#48#21@35"Division by zero or undefined value298984447#18446744073709551615#0#0(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#257#48#0#0#0"1(6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#257#48#257#68#35"Division by zero or undefined value6@39"/Volumes/Files/mark/work/sniper/podds.c298463306#257#48#0#0#12"Logic errors0(16"Division-by-zero0#0#39"/Volumes/Files/mark/work/sniper/podds.c4300911832#1648"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/podds.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/podds.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/randomgenerator.c
+s298984447.230657
+e298984447.247116
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/randomgenerator.c
+lSLF07#2@57"Analyze /Volumes/Files/mark/work/sniper/randomgenerator.c298984447#298984447#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/randomgenerator.c4300911832#1668"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/randomgenerator.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/randomgenerator.plist0#
+
+CAnalyze /Volumes/Files/mark/work/sniper/userinp.c
+s298984447.234750
+e298984447.406813
+r1
+xAnalyze
+x/Volumes/Files/mark/work/sniper/userinp.c
+lSLF07#2@49"Analyze /Volumes/Files/mark/work/sniper/userinp.c298984447#298984447#0(0"0(0#0#41"/Volumes/Files/mark/work/sniper/userinp.c4300911832#1652"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch --analyze /Volumes/Files/mark/work/sniper/userinp.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/StaticAnalyzer/normal/armv6/userinp.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies299420985#299420985#0(0"0(0#1#0"4300911832#0"0#
+
+CCodeSign /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+s299420805.301046
+e299420805.445789
+r1
+xCodeSign
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/sniper.app299420805#299420805#0(0"0(0#0#63"/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app4300911832#636"    cd /Volumes/Files/mark/work/sniper    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Mark Blackwell (9UDPXYJ84Z)" --resource-rules=/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/ResourceRules.plist --entitlements /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideView.o /Volumes/Files/mark/work/sniper/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292243813.490314
+e292243813.531963
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideView.o
+x/Volumes/Files/mark/work/sniper/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Volumes/Files/mark/work/sniper/Classes/FlipsideView.m292243813#292243813#0(0"0(0#0#54"/Volumes/Files/mark/work/sniper/Classes/FlipsideView.m4300911832#1659"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/Classes/FlipsideView.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideViewController.o /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298984522.076643
+e298984522.154802
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideViewController.o
+x/Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m298984522#298984522#0(0"0(0#0#64"/Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m4300911832#1679"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/Classes/FlipsideViewController.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/HandComboCount.o /Volumes/Files/mark/work/sniper/HandComboCount.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298984522.511122
+e298984522.577653
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/HandComboCount.o
+x/Volumes/Files/mark/work/sniper/HandComboCount.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Volumes/Files/mark/work/sniper/HandComboCount.m298984522#298984522#0(0"0(0#0#48"/Volumes/Files/mark/work/sniper/HandComboCount.m4300911832#1655"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/HandComboCount.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/HandComboCount.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/Simulation.o /Volumes/Files/mark/work/sniper/Classes/Simulation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299420804.761251
+e299420805.054010
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/Simulation.o
+x/Volumes/Files/mark/work/sniper/Classes/Simulation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m: In function '-[Simulation numHands_weighted]':
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m:22: warning: return from incompatible pointer type
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m: In function '-[Simulation handCodesWeights]':
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m:30: warning: return from incompatible pointer type
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m: In function '-[Simulation initWithCoder:]':
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m:240: warning: unknown conversion type character '.' in format
+o/Volumes/Files/mark/work/sniper/Classes/Simulation.m: At top level:
+o/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used
+o/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used
+lSLF07#2@60"Compile /Volumes/Files/mark/work/sniper/Classes/Simulation.m299420804#299420805#0(855"/Volumes/Files/mark/work/sniper/Classes/Simulation.m: In function '-[Simulation numHands_weighted]':/Volumes/Files/mark/work/sniper/Classes/Simulation.m:22: warning: return from incompatible pointer type/Volumes/Files/mark/work/sniper/Classes/Simulation.m: In function '-[Simulation handCodesWeights]':/Volumes/Files/mark/work/sniper/Classes/Simulation.m:30: warning: return from incompatible pointer type/Volumes/Files/mark/work/sniper/Classes/Simulation.m: In function '-[Simulation initWithCoder:]':/Volumes/Files/mark/work/sniper/Classes/Simulation.m:240: warning: unknown conversion type character '.' in format/Volumes/Files/mark/work/sniper/Classes/Simulation.m: At top level:/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used6(22@37"Return from incompatible pointer type299420804#101#104#0(6@52"/Volumes/Files/mark/work/sniper/Classes/Simulation.m299419937#22#0#22#0#0"0(22@37"Return from incompatible pointer type299420804#305#104#0(6@52"/Volumes/Files/mark/work/sniper/Classes/Simulation.m299419937#30#0#30#0#0"0(22@47"Unknown conversion type character '.' in format299420804#507#115#0(6@52"/Volumes/Files/mark/work/sniper/Classes/Simulation.m299419937#240#0#240#0#0"0(23@13"At top level:299420805#622#68#0(6@52"/Volumes/Files/mark/work/sniper/Classes/Simulation.m299419937#0#0#0#0#0"0(22@27"'CARD' defined but not used299420805#690#82#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#17#0#17#0#24"'*' defined but not used0(22@28"'COLOR' defined but not used299420805#772#83#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#18#0#18#0#24"'*' defined but not used0(0#0#52"/Volumes/Files/mark/work/sniper/Classes/Simulation.m4300911832#1655"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/Classes/Simulation.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/Simulation.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperView.o /Volumes/Files/mark/work/sniper/SniperView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298984522.577741
+e298984522.632118
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperView.o
+x/Volumes/Files/mark/work/sniper/SniperView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Volumes/Files/mark/work/sniper/SniperView.m298984522#298984522#0(0"0(0#0#44"/Volumes/Files/mark/work/sniper/SniperView.m4300911832#1647"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/SniperView.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperView.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperViewController.o /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299420804.879344
+e299420805.248348
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperViewController.o
+x/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController run]':
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1041: warning: format not a string literal and no format arguments
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController runWorker]':
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1271: warning: passing argument 3 of 'runSimulation_ncards_dead_weighted' from incompatible pointer type
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1271: warning: passing argument 10 of 'runSimulation_ncards_dead_weighted' from incompatible pointer type
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController applicationWillTerminate:]':
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1450: warning: format not a string literal and no format arguments
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController viewDidUnload]':
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1473: warning: format not a string literal and no format arguments
+o/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: At top level:
+o/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used
+o/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used
+lSLF07#2@70"Compile /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420804#299420805#0(1436"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController run]':/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1041: warning: format not a string literal and no format arguments/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController runWorker]':/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1271: warning: passing argument 3 of 'runSimulation_ncards_dead_weighted' from incompatible pointer type/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1271: warning: passing argument 10 of 'runSimulation_ncards_dead_weighted' from incompatible pointer type/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController applicationWillTerminate:]':/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1450: warning: format not a string literal and no format arguments/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: In function '-[SniperViewController viewDidUnload]':/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m:1473: warning: format not a string literal and no format arguments/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m: At top level:/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used8(22@51"Format not a string literal and no format arguments299420805#107#130#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420155#1041#0#1041#0#51"format not a string literal and no format arguments0(22@89"Passing argument 3 of 'runSimulation_ncards_dead_weighted' from incompatible pointer type299420805#350#168#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420155#1271#0#1271#0#56"passing argument * of '*' from incompatible pointer type0(22@90"Passing argument 10 of 'runSimulation_ncards_dead_weighted' from incompatible pointer type299420805#518#169#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420155#1271#0#1271#0#56"passing argument * of '*' from incompatible pointer type0(22@51"Format not a string literal and no format arguments299420805#816#130#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420155#1450#0#1450#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments299420805#1063#130#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420155#1473#0#1473#0#51"format not a string literal and no format arguments0(23@13"At top level:299420805#1193#78#0(6@62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m299420155#0#0#0#0#0"0(22@27"'CARD' defined but not used299420805#1271#82#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#17#0#17#0#24"'*' defined but not used0(22@28"'COLOR' defined but not used299420805#1353#83#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#18#0#18#0#24"'*' defined but not used0(0#0#62"/Volumes/Files/mark/work/sniper/Classes/SniperViewController.m4300911832#1675"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/Classes/SniperViewController.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/SniperViewController.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/UIHandcode.o /Volumes/Files/mark/work/sniper/UIHandcode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/carddeck.o /Volumes/Files/mark/work/sniper/carddeck.c normal armv6 c com.apple.compilers.gcc.4_2
+s299420368.992604
+e299420369.110206
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/carddeck.o
+x/Volumes/Files/mark/work/sniper/carddeck.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Volumes/Files/mark/work/sniper/carddeck.c299420368#299420369#0(0"0(0#0#42"/Volumes/Files/mark/work/sniper/carddeck.c4300911832#1633"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/carddeck.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/carddeck.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/handevaluator.o /Volumes/Files/mark/work/sniper/handevaluator.c normal armv6 c com.apple.compilers.gcc.4_2
+s299420369.110305
+e299420369.269998
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/handevaluator.o
+x/Volumes/Files/mark/work/sniper/handevaluator.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Volumes/Files/mark/work/sniper/handevaluator.c299420369#299420369#0(0"0(0#0#47"/Volumes/Files/mark/work/sniper/handevaluator.c4300911832#1643"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/handevaluator.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/handevaluator.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/main.o /Volumes/Files/mark/work/sniper/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298984522.011999
+e298984522.076528
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/main.o
+x/Volumes/Files/mark/work/sniper/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Volumes/Files/mark/work/sniper/main.m298984522#298984522#0(0"0(0#0#38"/Volumes/Files/mark/work/sniper/main.m4300911832#1635"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/main.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/podds.o /Volumes/Files/mark/work/sniper/podds.c normal armv6 c com.apple.compilers.gcc.4_2
+s299420369.270099
+e299420369.356045
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/podds.o
+x/Volumes/Files/mark/work/sniper/podds.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used
+o/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used
+lSLF07#2@47"Compile /Volumes/Files/mark/work/sniper/podds.c299420369#299420369#0(165"/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used2(22@27"'CARD' defined but not used299420369#0#82#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#17#0#17#0#24"'*' defined but not used0(22@28"'COLOR' defined but not used299420369#82#83#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#18#0#18#0#24"'*' defined but not used0(0#0#39"/Volumes/Files/mark/work/sniper/podds.c4300911832#1627"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/podds.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/podds.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/randomgenerator.o /Volumes/Files/mark/work/sniper/randomgenerator.c normal armv6 c com.apple.compilers.gcc.4_2
+s298984522.251054
+e298984522.289131
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/randomgenerator.o
+x/Volumes/Files/mark/work/sniper/randomgenerator.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Volumes/Files/mark/work/sniper/randomgenerator.c298984522#298984522#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/randomgenerator.c4300911832#1647"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/randomgenerator.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/randomgenerator.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniperAppDelegate.o /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299420804.758814
+e299420804.879245
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniperAppDelegate.o
+x/Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used
+o/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used
+lSLF07#2@67"Compile /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m299420804#299420804#0(165"/Volumes/Files/mark/work/sniper/common.h:17: warning: 'CARD' defined but not used/Volumes/Files/mark/work/sniper/common.h:18: warning: 'COLOR' defined but not used2(22@27"'CARD' defined but not used299420804#0#82#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#17#0#17#0#24"'*' defined but not used0(22@28"'COLOR' defined but not used299420804#82#83#0(6@40"/Volumes/Files/mark/work/sniper/common.h299305285#18#0#18#0#24"'*' defined but not used0(0#0#59"/Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m4300911832#1669"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/Classes/sniperAppDelegate.m -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniperAppDelegate.o0#
+
+CCompileC build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/userinp.o /Volumes/Files/mark/work/sniper/userinp.c normal armv6 c com.apple.compilers.gcc.4_2
+s299420369.317169
+e299420369.483335
+r1
+xCompileC
+xbuild/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/userinp.o
+x/Volumes/Files/mark/work/sniper/userinp.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Volumes/Files/mark/work/sniper/userinp.c299420369#299420369#0(0"0(0#0#41"/Volumes/Files/mark/work/sniper/userinp.c4300911832#1631"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -include /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch -c /Volumes/Files/mark/work/sniper/userinp.c -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/userinp.o0#
+
+CCompileXIB /Volumes/Files/mark/work/sniper/FlipsideView.xib
+s298984520.066046
+e298984520.532855
+r1
+xCompileXIB
+x/Volumes/Files/mark/work/sniper/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib298984520#298984520#0(0"0(0#0#48"/Volumes/Files/mark/work/sniper/FlipsideView.xib4300911832#448"    cd /Volumes/Files/mark/work/sniper    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/FlipsideView.nib /Volumes/Files/mark/work/sniper/FlipsideView.xib0#
+
+CCompileXIB /Volumes/Files/mark/work/sniper/InfoViewController.xib
+s298984520.634061
+e298984520.933441
+r1
+xCompileXIB
+x/Volumes/Files/mark/work/sniper/InfoViewController.xib
+lSLF07#2@33"CompileXIB InfoViewController.xib298984520#298984520#0(0"0(0#0#54"/Volumes/Files/mark/work/sniper/InfoViewController.xib4300911832#460"    cd /Volumes/Files/mark/work/sniper    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/InfoViewController.nib /Volumes/Files/mark/work/sniper/InfoViewController.xib0#
+
+CCompileXIB /Volumes/Files/mark/work/sniper/MainWindow.xib
+s298984520.066844
+e298984520.401971
+r1
+xCompileXIB
+x/Volumes/Files/mark/work/sniper/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298984520#298984520#0(0"0(0#0#46"/Volumes/Files/mark/work/sniper/MainWindow.xib4300911832#444"    cd /Volumes/Files/mark/work/sniper    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/MainWindow.nib /Volumes/Files/mark/work/sniper/MainWindow.xib0#
+
+CCompileXIB /Volumes/Files/mark/work/sniper/SniperViewController.xib
+s298984520.566773
+e298984521.561765
+r1
+xCompileXIB
+x/Volumes/Files/mark/work/sniper/SniperViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Volumes/Files/mark/work/sniper/SniperViewController.xib:232: warning: Specifying a content edge inset in Interface Builder is not supported by the iPhone SDK for iPhone OS versions prior to 3.0.
+o/Volumes/Files/mark/work/sniper/SniperViewController.xib:232: warning: Specifying a title edge inset in Interface Builder is not supported by the iPhone SDK for iPhone OS versions prior to 3.0.
+lSLF07#2@35"CompileXIB SniperViewController.xib298984520#298984521#0(431"/* com.apple.ibtool.document.warnings *//Volumes/Files/mark/work/sniper/SniperViewController.xib:232: warning: Specifying a content edge inset in Interface Builder is not supported by the iPhone SDK for iPhone OS versions prior to 3.0./Volumes/Files/mark/work/sniper/SniperViewController.xib:232: warning: Specifying a title edge inset in Interface Builder is not supported by the iPhone SDK for iPhone OS versions prior to 3.0.2(22@124"Specifying a content edge inset in Interface Builder is not supported by the iPhone SDK for iPhone OS versions prior to 3.0.298984521#18446744073709551615#0#0(6@56"/Volumes/Files/mark/work/sniper/SniperViewController.xib298463619#232#0#232#0#0"0(22@122"Specifying a title edge inset in Interface Builder is not supported by the iPhone SDK for iPhone OS versions prior to 3.0.298984521#18446744073709551615#0#0(6@56"/Volumes/Files/mark/work/sniper/SniperViewController.xib298463619#232#0#232#0#0"0(0#0#56"/Volumes/Files/mark/work/sniper/SniperViewController.xib4300911832#464"    cd /Volumes/Files/mark/work/sniper    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/SniperViewController.nib /Volumes/Files/mark/work/sniper/SniperViewController.xib0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/20px-Left_arrow.png 20px-Left_arrow.png
+s298984520.402061
+e298984520.453530
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/20px-Left_arrow.png
+x20px-Left_arrow.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/sniper.app/20px-Left_arrow.png 20px-Left_arrow.png298984520#298984520#0(0"0(0#0#51"/Volumes/Files/mark/work/sniper/20px-Left_arrow.png4300911832#556"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/20px-Left_arrow.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/20px-Left_arrow.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/27px-SuitHearts.png 27px-SuitHearts.png
+s298984520.933532
+e298984520.961302
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/27px-SuitHearts.png
+x27px-SuitHearts.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/sniper.app/27px-SuitHearts.png 27px-SuitHearts.png298984520#298984520#0(0"0(0#0#51"/Volumes/Files/mark/work/sniper/27px-SuitHearts.png4300911832#556"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/27px-SuitHearts.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/27px-SuitHearts.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitClubs.svg.png 30px-SuitClubs.svg.png
+s298984520.453627
+e298984520.476279
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitClubs.svg.png
+x30px-SuitClubs.svg.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/sniper.app/30px-SuitClubs.svg.png 30px-SuitClubs.svg.png298984520#298984520#0(0"0(0#0#54"/Volumes/Files/mark/work/sniper/30px-SuitClubs.svg.png4300911832#562"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/30px-SuitClubs.svg.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitClubs.svg.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitDiamonds.svg.png 30px-SuitDiamonds.svg.png
+s298984520.476368
+e298984520.498514
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitDiamonds.svg.png
+x30px-SuitDiamonds.svg.png
+lSLF07#2@95"CopyPNGFile build/Debug-iphoneos/sniper.app/30px-SuitDiamonds.svg.png 30px-SuitDiamonds.svg.png298984520#298984520#0(0"0(0#0#57"/Volumes/Files/mark/work/sniper/30px-SuitDiamonds.svg.png4300911832#568"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/30px-SuitDiamonds.svg.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitDiamonds.svg.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitSpades.svg.png 30px-SuitSpades.svg.png
+s298984520.498606
+e298984520.524030
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitSpades.svg.png
+x30px-SuitSpades.svg.png
+lSLF07#2@91"CopyPNGFile build/Debug-iphoneos/sniper.app/30px-SuitSpades.svg.png 30px-SuitSpades.svg.png298984520#298984520#0(0"0(0#0#55"/Volumes/Files/mark/work/sniper/30px-SuitSpades.svg.png4300911832#564"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/30px-SuitSpades.svg.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/30px-SuitSpades.svg.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/50px-Stop_cross.png 50px-Stop_cross.png
+s298984520.524133
+e298984520.566523
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/50px-Stop_cross.png
+x50px-Stop_cross.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/sniper.app/50px-Stop_cross.png 50px-Stop_cross.png298984520#298984520#0(0"0(0#0#51"/Volumes/Files/mark/work/sniper/50px-Stop_cross.png4300911832#556"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/50px-Stop_cross.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/50px-Stop_cross.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png artwork/Default.png
+s298984520.988693
+e298984521.077988
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png
+xartwork/Default.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/sniper.app/Default.png artwork/Default.png298984520#298984521#0(0"0(0#0#51"/Volumes/Files/mark/work/sniper/artwork/Default.png4300911832#548"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/artwork/Default.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png artwork_LITE/Default.png
+s292677238.070347
+e292677238.159293
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png
+xartwork_LITE/Default.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/sniper.app/Default.png artwork_LITE/Default.png292677238#292677238#0(0"0(0#0#56"/Volumes/Files/mark/work/sniper/artwork_LITE/Default.png4300911832#553"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/artwork_LITE/Default.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Default.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png artwork/Icon.png
+s298984520.962007
+e298984520.987835
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png
+xartwork/Icon.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/sniper.app/Icon.png artwork/Icon.png298984520#298984520#0(0"0(0#0#48"/Volumes/Files/mark/work/sniper/artwork/Icon.png4300911832#542"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/artwork/Icon.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png artwork_LITE/Icon.png
+s292677237.858236
+e292677237.913372
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png
+xartwork_LITE/Icon.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/sniper.app/Icon.png artwork_LITE/Icon.png292677237#292677237#0(0"0(0#0#53"/Volumes/Files/mark/work/sniper/artwork_LITE/Icon.png4300911832#547"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/artwork_LITE/Icon.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Icon.png0#
+
+CCopyPNGFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/iTunesArtwork.png artwork_LITE/iTunesArtwork.png
+s292677237.913466
+e292677238.070255
+r1
+xCopyPNGFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/iTunesArtwork.png
+xartwork_LITE/iTunesArtwork.png
+lSLF07#2@92"CopyPNGFile build/Debug-iphoneos/sniper.app/iTunesArtwork.png artwork_LITE/iTunesArtwork.png292677237#292677238#0(0"0(0#0#62"/Volumes/Files/mark/work/sniper/artwork_LITE/iTunesArtwork.png4300911832#565"    cd /Volumes/Files/mark/work/sniper    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Volumes/Files/mark/work/sniper/artwork_LITE/iTunesArtwork.png /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/iTunesArtwork.png0#
+
+CCopyPlistFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Entitlements.plist Entitlements.plist
+r0
+
+CCpResource build/Debug-iphoneos/sniper.app/LICENSE LICENSE
+s298984520.564781
+e298984520.584199
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/LICENSE
+xLICENSE
+lSLF07#2@12"Copy LICENSE298984520#298984520#0(0"0(0#0#39"/Volumes/Files/mark/work/sniper/LICENSE4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/LICENSE /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+s298984520.037186
+e298984520.065945
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist298984520#298984520#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist4300911832#465"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/aboutSniper.html aboutSniper.html
+s298984520.556435
+e298984520.568358
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/aboutSniper.html
+xaboutSniper.html
+lSLF07#2@21"Copy aboutSniper.html298984520#298984520#0(0"0(0#0#48"/Volumes/Files/mark/work/sniper/aboutSniper.html4300911832#424"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/aboutSniper.html /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/aboutSniper_LITE.html aboutSniper_LITE.html
+s298984520.557941
+e298984520.568461
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/aboutSniper_LITE.html
+xaboutSniper_LITE.html
+lSLF07#2@26"Copy aboutSniper_LITE.html298984520#298984520#0(0"0(0#0#53"/Volumes/Files/mark/work/sniper/aboutSniper_LITE.html4300911832#429"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/aboutSniper_LITE.html /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/buildSpec buildSpec
+s298984520.559457
+e298984520.569942
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/buildSpec
+xbuildSpec
+lSLF07#2@14"Copy buildSpec298984520#298984520#0(0"0(0#0#41"/Volumes/Files/mark/work/sniper/buildSpec4300911832#417"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/buildSpec /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/carddag carddag
+s298984520.532942
+e298984520.633975
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/carddag
+xcarddag
+lSLF07#2@12"Copy carddag298984520#298984520#0(0"0(0#0#39"/Volumes/Files/mark/work/sniper/carddag4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/carddag /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/eqcllist eqcllist
+s298984520.552205
+e298984520.566628
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/eqcllist
+xeqcllist
+lSLF07#2@13"Copy eqcllist298984520#298984520#0(0"0(0#0#40"/Volumes/Files/mark/work/sniper/eqcllist4300911832#416"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/eqcllist /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/help.html help.html
+s298984520.561030
+e298984520.577920
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/help.html
+xhelp.html
+lSLF07#2@14"Copy help.html298984520#298984520#0(0"0(0#0#41"/Volumes/Files/mark/work/sniper/help.html4300911832#417"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/help.html /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/help_LITE.html help_LITE.html
+s298984520.961389
+e298984520.965771
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/help_LITE.html
+xhelp_LITE.html
+lSLF07#2@19"Copy help_LITE.html298984520#298984520#0(0"0(0#0#46"/Volumes/Files/mark/work/sniper/help_LITE.html4300911832#422"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/help_LITE.html /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/iTunesArtwork artwork/iTunesArtwork
+s298984520.987923
+e298984520.992803
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/iTunesArtwork
+xartwork/iTunesArtwork
+lSLF07#2@26"Copy artwork/iTunesArtwork298984520#298984520#0(0"0(0#0#53"/Volumes/Files/mark/work/sniper/artwork/iTunesArtwork4300911832#429"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/artwork/iTunesArtwork /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/keywords keywords
+s298984520.563226
+e298984520.580505
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/keywords
+xkeywords
+lSLF07#2@13"Copy keywords298984520#298984520#0(0"0(0#0#40"/Volumes/Files/mark/work/sniper/keywords4300911832#416"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/keywords /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CCpResource build/Debug-iphoneos/sniper.app/percentHandData.csv percentHandData.csv
+s298984520.554865
+e298984520.566720
+r1
+xCpResource
+xbuild/Debug-iphoneos/sniper.app/percentHandData.csv
+xpercentHandData.csv
+lSLF07#2@24"Copy percentHandData.csv298984520#298984520#0(0"0(0#0#51"/Volumes/Files/mark/work/sniper/percentHandData.csv4300911832#427"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/Files/mark/work/sniper/percentHandData.csv /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+
+CGenerateDSYMFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app.dSYM /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper
+s299420805.278826
+e299420805.298571
+r1
+xGenerateDSYMFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app.dSYM
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/sniper.app.dSYM build/Debug-iphoneos/sniper.app/sniper299420805#299420805#0(0"0(0#0#70"/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper4300911832#338"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app.dSYM0#
+
+CLd /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper normal armv6
+s299420805.248435
+e299420805.278730
+r1
+xLd
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper
+xnormal
+xarmv6
+lSLF07#2@75"Link /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper299420805#299420805#0(0"0(0#0#0"4300911832#782"    cd /Volumes/Files/mark/work/sniper    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -filelist /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/Objects-normal/armv6/sniper.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/sniper0#
+
+CProcessInfoPlistFile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Info.plist sniper-Info.plist
+s298984520.040796
+e298984520.060181
+r1
+xProcessInfoPlistFile
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Info.plist
+xsniper-Info.plist
+lSLF07#2@25"Process sniper-Info.plist298984520#298984520#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper-Info.plist4300911832#530"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility sniper-Info.plist -genpkginfo /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/ResourceRules.plist -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/Info.plist0#
+
+CProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bekqjvdbssvbvjaswrjtqxkppjwp/sniper_Prefix.pch.gch sniper_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s292162782.866202
+e292162782.945562
+r1
+xProcessPCH
+x/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bekqjvdbssvbvjaswrjtqxkppjwp/sniper_Prefix.pch.gch
+xsniper_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sniper_Prefix.pch292162782#292162782#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper_Prefix.pch4300911832#1523"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -c /Volumes/Files/mark/work/sniper/sniper_Prefix.pch -o /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bekqjvdbssvbvjaswrjtqxkppjwp/sniper_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch.pth sniper_Prefix.pch normal armv6 c com.apple.compilers.llvm.clang.1_0.analyzer
+s298984446.890454
+e298984446.950745
+r1
+xProcessPCH
+x/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch.pth
+xsniper_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@28"Precompile sniper_Prefix.pch298984446#298984446#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper_Prefix.pch4300911832#1534"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -c /Volumes/Files/mark/work/sniper/sniper_Prefix.pch -o /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-bjrkeopyrymhjsbkaflrannqqigw/sniper_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-cdwddsgecmgynbfyleprlypkrthq/sniper_Prefix.pch.gch sniper_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292162782.865210
+e292162783.350234
+r1
+xProcessPCH
+x/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-cdwddsgecmgynbfyleprlypkrthq/sniper_Prefix.pch.gch
+xsniper_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sniper_Prefix.pch292162782#292162783#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper_Prefix.pch4300911832#1533"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -c /Volumes/Files/mark/work/sniper/sniper_Prefix.pch -o /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-cdwddsgecmgynbfyleprlypkrthq/sniper_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch.gch sniper_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s298984521.563224
+e298984521.630406
+r1
+xProcessPCH
+x/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch.gch
+xsniper_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sniper_Prefix.pch298984521#298984521#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper_Prefix.pch4300911832#1531"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -c /Volumes/Files/mark/work/sniper/sniper_Prefix.pch -o /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-edymzbdxsmqzjdafxomvmvrsslkz/sniper_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch.pth sniper_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s298984446.888130
+e298984447.116016
+r1
+xProcessPCH
+x/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch.pth
+xsniper_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@28"Precompile sniper_Prefix.pch298984446#298984447#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper_Prefix.pch4300911832#1544"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -c /Volumes/Files/mark/work/sniper/sniper_Prefix.pch -o /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-gtsrawchikfvgkaologvxagvzmne/sniper_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch.gch sniper_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s298984521.561956
+e298984522.011887
+r1
+xProcessPCH
+x/var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch.gch
+xsniper_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile sniper_Prefix.pch298984521#298984522#0(0"0(0#0#49"/Volumes/Files/mark/work/sniper/sniper_Prefix.pch4300911832#1541"    cd /Volumes/Files/mark/work/sniper    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-generated-files.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-own-target-headers.hmap -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-all-target-headers.hmap -iquote /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper-project-headers.hmap -F/Volumes/Files/mark/work/sniper/build/Debug-iphoneos -I/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/include -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources/armv6 -I/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/DerivedSources -c /Volumes/Files/mark/work/sniper/sniper_Prefix.pch -o /var/folders/KP/KPI96Ak7EUucGoUb8roSmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sniper_Prefix-hkiphcnyomxpncgfjslrwdzgnntv/sniper_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4B8E0540-19D2-4359-A87F-283D4A300F1C.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4D9AF0E2-5530-47F6-ACA1-A4C1913C6B33.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+s292848329.480011
+e292848329.481185
+r1
+xProcessProductPackaging
+x/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4D9AF0E2-5530-47F6-ACA1-A4C1913C6B33.mobileprovision
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4D9AF0E2-5530-47F6-ACA1-A4C1913C6B33.mobileprovision" build/Debug-iphoneos/sniper.app/embedded.mobileprovision292848329#292848329#0(0"0(0#0#88"/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/4D9AF0E2-5530-47F6-ACA1-A4C1913C6B33.mobileprovision" -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/8B0EB60B-DC33-4F5C-B7FA-BABAB50A5DD2.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/95CE39AD-912D-4040-B6EA-1B2BECFFA308.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+s292679960.406071
+e292679960.407932
+r1
+xProcessProductPackaging
+x/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/95CE39AD-912D-4040-B6EA-1B2BECFFA308.mobileprovision
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/95CE39AD-912D-4040-B6EA-1B2BECFFA308.mobileprovision" build/Debug-iphoneos/sniper.app/embedded.mobileprovision292679960#292679960#0(0"0(0#0#88"/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/95CE39AD-912D-4040-B6EA-1B2BECFFA308.mobileprovision" -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E1F93E75-6A65-4D81-821F-B743373225D0.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+s298984522.888210
+e298984522.889397
+r1
+xProcessProductPackaging
+x/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E1F93E75-6A65-4D81-821F-B743373225D0.mobileprovision
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E1F93E75-6A65-4D81-821F-B743373225D0.mobileprovision" build/Debug-iphoneos/sniper.app/embedded.mobileprovision298984522#298984522#0(0"0(0#0#88"/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E1F93E75-6A65-4D81-821F-B743373225D0.mobileprovision" -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E9049780-2339-4FE8-AA91-3280E6171E6E.mobileprovision" /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+s292246512.392800
+e292246512.440358
+r1
+xProcessProductPackaging
+x/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E9049780-2339-4FE8-AA91-3280E6171E6E.mobileprovision
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E9049780-2339-4FE8-AA91-3280E6171E6E.mobileprovision" build/Debug-iphoneos/sniper.app/embedded.mobileprovision292246512#292246512#0(0"0(0#0#88"/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Volumes/Files/mark/Library/MobileDevice/Provisioning Profiles/E9049780-2339-4FE8-AA91-3280E6171E6E.mobileprovision" -o /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent
+s298984522.892837
+e298984522.894540
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent298984522#298984522#0(0"0(0#0#91"/Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent4300911832#415"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Volumes/Files/mark/work/sniper/build/sniper.build/Debug-iphoneos/sniper.build/sniper.xcent0#
+
+CTouch /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+s299420805.298753
+e299420805.300919
+r1
+xTouch
+x/Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app
+lSLF07#2@69"Touch /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app299420805#299420805#0(0"0(0#0#0"4300911832#249"    cd /Volumes/Files/mark/work/sniper    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Files/mark/work/sniper/build/Debug-iphoneos/sniper.app0#
+

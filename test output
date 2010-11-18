@@ -1,0 +1,45 @@
+Enter Player 1 hand (or 'run' to do the sim): jsjd
+Enter Player 2 hand (or 'run' to do the sim): 9d9x
+Enter Player 3 hand (or 'run' to do the sim): jk
+Enter Player 4 hand (or 'run' to do the sim): run
+Simulation took 2.600 seconds for 1000000 iters:
+Player 0: Wins 264637, Splits 6331, Rounds 499575, Equity: 0.536
+Player 1: Wins 92209, Splits 1816, Rounds 499575, Equity: 0.186
+Player 2: Wins 136398, Splits 6331, Rounds 499575, Equity: 0.279
+Player 0 hands:  0: JsJd
+Player 1 hands:  0: 9d9h 1: 9d9s 2: 9d9c
+Player 2 hands:  0: JhKs 1: JhKc 2: JhKd 3: JsKh 4: JsKc 5: JsKd 6: JcKh 7: JcKs 8: JcKd 9: JdKh 10: JdKs 11: JdKc 12: JhKh 13: JsKs 14: JcKc 15: JdKd
+mark@mark-laptop:~/work/ideas/podds$ ./Debug/podds
+Enter Player 1 hand (or 'run' to do the sim): 2s6d
+Enter Player 2 hand (or 'run' to do the sim): AA 
+Enter Player 3 hand (or 'run' to do the sim): KAs
+Enter Player 4 hand (or 'run' to do the sim): JJ+
+Enter Player 5 hand (or 'run' to do the sim): 33+
+Enter Player 6 hand (or 'run' to do the sim): AJo-AKo           
+Enter Player 7 hand (or 'run' to do the sim): run
+Simulation took 3.090 seconds for 1000000 iters:
+Player 0: Wins 5057, Splits 647, Rounds 41891, Equity: 0.128
+Player 1: Wins 17520, Splits 223, Rounds 41891, Equity: 0.421
+Player 2: Wins 3619, Splits 465, Rounds 41891, Equity: 0.092
+Player 3: Wins 6579, Splits 205, Rounds 41891, Equity: 0.159
+Player 4: Wins 6960, Splits 234, Rounds 41891, Equity: 0.169
+Player 5: Wins 1509, Splits 555, Rounds 41891, Equity: 0.043
+Player 0 hands:  0: 2s6d
+Player 1 hands:  0: AhAs 1: AhAc 2: AhAd 3: AsAh 4: AsAc 5: AsAd 6: AcAh 7: AcAs 8: AcAd 9: AdAh 10: AdAs 11: AdAc
+Player 2 hands:  0: KhAh 1: KsAs 2: KcAc 3: KdAd
+Player 3 hands:  0: JhJs 1: JhJc 2: JhJd 3: JsJh 4: JsJc 5: JsJd 6: JcJh 7: JcJs 8: JcJd 9: JdJh 10: JdJs 11: JdJc 12: QhQs 13: QhQc 14: QhQd 15: QsQh 16: QsQc 17: QsQd 18: QcQh 19: QcQs 20: QcQd 21: QdQh 22: QdQs 23: QdQc 24: KhKs 25: KhKc 26: KhKd 27: KsKh 28: KsKc 29: KsKd 30: KcKh 31: KcKs 32: KcKd 33: KdKh 34: KdKs 35: KdKc 36: AhAs 37: AhAc 38: AhAd 39: AsAh 40: AsAc 41: AsAd 42: AcAh 43: AcAs 44: AcAd 45: AdAh 46: AdAs 47: AdAc
+Player 4 hands:  0: 3h3s 1: 3h3c 2: 3h3d 3: 3s3h 4: 3s3c 5: 3s3d 6: 3c3h 7: 3c3s 8: 3c3d 9: 3d3h 10: 3d3s 11: 3d3c 12: 4h4s 13: 4h4c 14: 4h4d 15: 4s4h 16: 4s4c 17: 4s4d 18: 4c4h 19: 4c4s 20: 4c4d 21: 4d4h 22: 4d4s 23: 4d4c 24: 5h5s 25: 5h5c 26: 5h5d 27: 5s5h 28: 5s5c 29: 5s5d 30: 5c5h 31: 5c5s 32: 5c5d 33: 5d5h 34: 5d5s 35: 5d5c 36: 6h6s 37: 6h6c 38: 6h6d 39: 6s6h 40: 6s6c 41: 6s6d 42: 6c6h 43: 6c6s 44: 6c6d 45: 6d6h 46: 6d6s 47: 6d6c 48: 7h7s 49: 7h7c 50: 7h7d 51: 7s7h 52: 7s7c 53: 7s7d 54: 7c7h 55: 7c7s 56: 7c7d 57: 7d7h 58: 7d7s 59: 7d7c 60: 8h8s 61: 8h8c 62: 8h8d 63: 8s8h 64: 8s8c 65: 8s8d 66: 8c8h 67: 8c8s 68: 8c8d 69: 8d8h 70: 8d8s 71: 8d8c 72: 9h9s 73: 9h9c 74: 9h9d 75: 9s9h 76: 9s9c 77: 9s9d 78: 9c9h 79: 9c9s 80: 9c9d 81: 9d9h 82: 9d9s 83: 9d9c 84: ThTs 85: ThTc 86: ThTd 87: TsTh 88: TsTc 89: TsTd 90: TcTh 91: TcTs 92: TcTd 93: TdTh 94: TdTs 95: TdTc 96: JhJs 97: JhJc 98: JhJd 99: JsJh 100: JsJc 101: JsJd 102: JcJh 103: JcJs 104: JcJd 105: JdJh 106: JdJs 107: JdJc 108: QhQs 109: QhQc 110: QhQd 111: QsQh 112: QsQc 113: QsQd 114: QcQh 115: QcQs 116: QcQd 117: QdQh 118: QdQs 119: QdQc 120: KhKs 121: KhKc 122: KhKd 123: KsKh 124: KsKc 125: KsKd 126: KcKh 127: KcKs 128: KcKd 129: KdKh 130: KdKs 131: KdKc 132: AhAs 133: AhAc 134: AhAd 135: AsAh 136: AsAc 137: AsAd 138: AcAh 139: AcAs 140: AcAd 141: AdAh 142: AdAs 143: AdAc
+Player 5 hands:  0: AhJs 1: AhJc 2: AhJd 3: AsJh 4: AsJc 5: AsJd 6: AcJh 7: AcJs 8: AcJd 9: AdJh 10: AdJs 11: AdJc 12: AhQs 13: AhQc 14: AhQd 15: AsQh 16: AsQc 17: AsQd 18: AcQh 19: AcQs 20: AcQd 21: AdQh 22: AdQs 23: AdQc 24: AhKs 25: AhKc 26: AhKd 27: AsKh 28: AsKc 29: AsKd 30: AcKh 31: AcKs 32: AcKd 33: AdKh 34: AdKs 35: AdKc
+
+
+Enter Player 1 hand (or 'run' to do the sim): 2s6d
+Enter Player 2 hand (or 'run' to do the sim): AJo-AKo
+Enter Player 3 hand (or 'run' to do the sim): run
+Simulation took 2.620 seconds for 1000000 iters:
+Player 0: Wins 332312, Splits 5002, Rounds 1000000, Equity: 0.335
+Player 1: Wins 662686, Splits 5002, Rounds 1000000, Equity: 0.665
+Player 0 hands:  0: 2s6d
+Player 1 hands:  0: AhJs 1: AhJc 2: AhJd 3: AsJh 4: AsJc 5: AsJd 6: AcJh 7: AcJs 8: AcJd 9: AdJh 10: AdJs 11: AdJc 12: AhQs 13: AhQc 14: AhQd 15: AsQh 16: AsQc 17: AsQd 18: AcQh 19: AcQs 20: AcQd 21: AdQh 22: AdQs 23: AdQc 24: AhKs 25: AhKc 26: AhKd 27: AsKh 28: AsKc 29: AsKd 30: AcKh 31: AcKs 32: AcKd 33: AdKh 34: AdKs 35: AdKc
+
+
+

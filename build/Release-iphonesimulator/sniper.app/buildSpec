@@ -1,0 +1,19 @@
+in sniper-Info.plist:
+1. change bundle name to LITE
+2. change bundle ID to com.allieandmark.sniperLITE
+
+change default, icon and itunesartwork to LITE versions
+
+uncomment #define USE_TRADITIONAL_LITE in SniperViewController.h
+
+change code signing identity
+
+remove entitlements.plist?? (i think only needed for ad hoc)
+
+increment version number
+
+change build to device, distribution
+
+confirm the presence of the "embedded.mobileprovision” file
+
+Search for the term “CodeSign” in the Build Log detail view
